@@ -12,7 +12,6 @@ import {
 
 import React, { useContext, useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import moment from 'moment';
 import { GrCloudDownload, GrSend } from 'react-icons/gr';
 import { FaMicrophone } from 'react-icons/fa';
 import { IoIosPlayCircle } from 'react-icons/io';
@@ -412,7 +411,7 @@ const CreateCampaign = (props) => {
                     shrink: true,
                   }}
                   onChange={(e) => {
-                    setCampaignDate(moment.utc(e.target.value));
+                    setCampaignDate(e.target.value);
                   }}
                 />
               </form>
