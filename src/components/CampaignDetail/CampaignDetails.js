@@ -174,7 +174,8 @@ const CampaignDetail = (props) => {
               <p>
                 Taux de réussite{' '}
                 {currentCampaign &&
-                  currentCampaign.call_success_count / currentCampaign.count}
+                  (currentCampaign.call_success_count / currentCampaign.count) *
+                    100}
                 %
               </p>
             </div>

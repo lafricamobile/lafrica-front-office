@@ -37,7 +37,7 @@ const Chart = () => {
         'Juin',
         'Juillet',
         'Août',
-        'Setptembre',
+        'Septembre',
         'Octobre',
         'Novembre',
         'Décembre',

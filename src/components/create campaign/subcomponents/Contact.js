@@ -85,7 +85,7 @@ const Contact = (props) => {
           type="button"
           onClick={() => modifyContact(id)}
         >
-          Modifiez
+          Modifier
         </button>
       </td>
       <td>
